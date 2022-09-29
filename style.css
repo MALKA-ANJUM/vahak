@@ -54,9 +54,6 @@ header {
 
 /* hero section */
 .hero {
-  /* position: absolute;
-  top: 0;
-  width: 100%; */
   padding-top: 10em;
 }
 .hero_section {
@@ -98,9 +95,8 @@ img {
 .button .btn {
   padding: 0.5em 1em;
   font-weight: 500;
- 
-}
 
+}
 @media screen and (max-width: 998px) {
   .hero_section {
     flex-direction: column;
@@ -117,7 +113,6 @@ img {
 }
 
 /* card-commom */
-
 .card-wrapper {
   display: flex;
   justify-content: space-around;
@@ -136,7 +131,6 @@ img {
   padding: 1em;
   border-radius: 50%;
 }
-
 /* .card-1 */
 .card-1 {
   background: #eef5fe;
@@ -151,11 +145,9 @@ img {
   object-fit: cover;
   object-position: center;
 }
-
 .content_card-1 {
   position: relative;
   top: 5em;
- 
 }
 .card-body button{
   border: none;
@@ -182,10 +174,8 @@ img {
     padding-top: 0;
   }
   .card-2 .card_title{
-
-    flex-direction: column;
+  flex-direction: column;
   }
-
 }
 /* card-2 */
 .card-2 .btn {
@@ -220,33 +210,33 @@ img {
   font-size: 1em;
   padding-left: 1em;
 }
-@media screen and (max-width: 998px) {
-    
-    .card-2 .card_title h2{
-        font-size: 1em;
-    }
-    .card-2 .card_title a{
-        font-size: 0.7;
-        padding: 0.25em;
-    }
-  }
-  .card_link{
-    padding: 1em;
-  }
-  .call-link{
-    border: 2px solid #0f53fb;
-    border-radius: 3px;
+.card_link{
+  padding: 1em;
+}
+.call-link{
+  border: 2px solid #0f53fb;
+  border-radius: 3px;
+  font-size: 1em;
+  text-decoration: none;
+  color: #0f53fb;
+  padding: 0.25em;
+}
+.profile-link{
+  font-size: 1em;
+  text-decoration: none;
+  color: #0f53fb;
+  padding: 0.25em;
+}
+@media screen and (max-width: 998px) {  
+  .card-2 .card_title h2{
     font-size: 1em;
-    text-decoration: none;
-    color: #0f53fb;
+  }
+  .card-2 .card_title a{
+    font-size: 0.7;
     padding: 0.25em;
   }
-  .profile-link{
-    font-size: 1em;
-    text-decoration: none;
-    color: #0f53fb;
-    padding: 0.25em;
-  }
+}
+
 /* card-3 */
 .card-3 .card-body{
   background: #EEF5FE;
